@@ -26,7 +26,7 @@ const SearchBar = ({ searchTerm, onSearchChange, onSearchSubmit }) => {
 const styles = StyleSheet.create({
     background: {
         backgroundColor: '#F0EEEE',
-        margin: 30,
+        margin: 10,
         height: 50,
         borderRadius: 5,
         flexDirection: 'row',
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     },
 
     text: {
-
+        marginLeft: 10,
         fontSize: 30,
         color: 'black',
         borderWidth: 1,
